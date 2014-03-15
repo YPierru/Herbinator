@@ -1,5 +1,5 @@
 package draw;
-/*
+
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import javax.swing.JComponent;
@@ -9,7 +9,7 @@ import javax.swing.JScrollPane;
 
 public class GUIPaint {
 
-    private static JFrame frame;
+   /* private static JFrame frame;
 
     public static void paintOnFrame(JComponent component, String frameName) {
         frame = new JFrame(frameName);
@@ -36,6 +36,5 @@ public class GUIPaint {
     
     public static void destroy(){
         frame.dispose();
-    }
+    }*/
 }
-*/

@@ -1,8 +1,6 @@
 package herbin;
 
 import moteur.HFrame;
-import HandCapture.Hand;
-import HandCapture.HandsCapture;
 
 //import HandCapture.HandsCapture;
 

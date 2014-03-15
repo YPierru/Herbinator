@@ -20,16 +20,10 @@ package HandCapture;
 	 * ----------------------------------------------------------------------------
 	 */
 
-import SimpleOpenNI.*;
 
-import java.awt.Color;
-import java.util.*;
-
-import processing.core.PApplet;
-import processing.core.PVector;
-
-public class HandsCapture extends PApplet{
-
+//public class HandsCapture extends PApplet{
+public class HandsCapture {
+	/*
 	SimpleOpenNI      context;
 	// NITE
 	XnVSessionManager sessionManager;
@@ -42,9 +36,9 @@ public class HandsCapture extends PApplet{
 		PApplet.main(new String[] { HandsCapture.class.getName() });
 	}
 
-	/*public void setHand(Hand h){
+	public void setHand(Hand h){
 		this.hand=h;
-	}*/
+	}
 	
 	public void setup()
 	{
@@ -202,9 +196,9 @@ public class HandsCapture extends PApplet{
 	      curList.remove(curList.size() - 1);
 	  }
 	  
-	  /*public Hand getHand(){
+	  public Hand getHand(){
 		  return this.hand;
-	  }*/
+	  }
 	  
 	  public void draw()
 	  {
@@ -257,5 +251,5 @@ public class HandsCapture extends PApplet{
 	    popStyle();
 	  }
 
-	}
+	}*/
 }
