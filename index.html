@@ -31,7 +31,97 @@
         <hr>
 
         <section id="main_content">
-          <p>En construction</p>
+          <h1>
+<a name="herbinator" class="anchor" href="#herbinator"><span class="octicon octicon-link"></span></a>Herbinator</h1>
+
+<p>Ce programme est le résultat de notre projet de fin de deuxième année de DUT. Nous étions 3 étudiants : Fabio, Evelyne et Yan.</p>
+
+<h2>
+<a name="pr%C3%A9sentation" class="anchor" href="#pr%C3%A9sentation"><span class="octicon octicon-link"></span></a>Présentation</h2>
+
+<h3>
+<a name="g%C3%A9n%C3%A9rale" class="anchor" href="#g%C3%A9n%C3%A9rale"><span class="octicon octicon-link"></span></a>Générale</h3>
+
+<p>Herbinator est un tableau graphique intéractif en java, utilisant le capteur de mouvement de la Kinect. Il se base sur le travail du peintre <a href="http://fr.wikipedia.org/wiki/Auguste_Herbin">Auguste Herbin</a>, qui avait créer un alphabet graphique : chaque lettre correspond à une série de forme d'une couleur précise. </p>
+
+<p><img src="http://millardiz.fr/wp-content/gallery/herbin/09-alphabet-plastique.jpg" alt="Alphabet graphique d'Auguste Herbin"></p>
+
+<p>Pour créer un tableau sur Herbinator, il faut rentrer un mot, et le programme générera un tableau avec les formes de ce mot.</p>
+
+<h3>
+<a name="int%C3%A9r%C3%AAt-de-la-kinect" class="anchor" href="#int%C3%A9r%C3%AAt-de-la-kinect"><span class="octicon octicon-link"></span></a>Intérêt de la Kinect</h3>
+
+<p><em>Actuellement la partie Kinect est désactivée. Une procédure permettant d'utiliser la Kinect (installation des dépendances) sera disponible prochainement.</em>
+Herbinator contient un item "Activer la kinect", qui permet de capter la main d'une personne devant la kinect, et cette main devient le pointeur. L'utilisateur peut alors effectuer différentes actions avec sa main : </p>
+
+<ul>
+<li>Déplacer une forme : On place sa main sur une forme et on "prends" la forme, c'est à dire qu'on recule sa main. Le pointeur change de couleur lorsque la forme est bien attrapée. Pour relacher la forme, il suffit de pousser sa main.</li>
+<li>Changer la couleur d'une forme : Il faut pousser sa main. La couleur sera choisie aléatoirement.</li>
+</ul><p><img src="http://img15.hostingpics.net/pics/482552HerbinatorAccueil.png" alt="Lancement"></p>
+
+<h2>
+<a name="fonctionnalit%C3%A9s" class="anchor" href="#fonctionnalit%C3%A9s"><span class="octicon octicon-link"></span></a>Fonctionnalités</h2>
+
+<h3>
+<a name="g%C3%A9n%C3%A9rer-un-tableau" class="anchor" href="#g%C3%A9n%C3%A9rer-un-tableau"><span class="octicon octicon-link"></span></a>Générer un tableau</h3>
+
+<p>Aller dans Edition-&gt;Herbinisation </p>
+
+<p><img src="http://img15.hostingpics.net/pics/891363SaisieHerbinisation.png" alt="Saisie herbinisation"></p>
+
+<p>Dans cette fenêtre vous pouvez : </p>
+
+<ul>
+<li>Choisir la taille du tableau</li>
+<li>Taper le mot à traduite</li>
+<li>Choisir le mode : Libre, vous pourrez déplacer les formes comme vous le souhaitez ou Pro, vous interchanger les formes entre elles</li>
+<li>Plein écran : pour affichage en plein écran</li>
+</ul><p>Cliquer sur générer (Exemple de génération en 600x400, "bonjour")</p>
+
+<p><img src="http://img15.hostingpics.net/pics/810445bonjour.png" alt='Génération avec "bonjour", 600x400'></p>
+
+<p>Vous pouvez déplacer des formes en "drag&amp;drop". Vous pouvez aussi changer de couleur les formes en faisant un clic-droit sur la forme.</p>
+
+<h3>
+<a name="sauvegarder-votre-tableau-herbinator" class="anchor" href="#sauvegarder-votre-tableau-herbinator"><span class="octicon octicon-link"></span></a>Sauvegarder votre tableau (.herbinator)</h3>
+
+<p>Allez dans Fichier-&gt;Sauvegarder (.herbinator)</p>
+
+<p>Le .herbinator garde les propriétés de votre tableau. Si vous ouvrez un .herbinator sauvegardé précédemment, vous pourrez à nouveau déplacer des formes, les changer de couleurs etc.</p>
+
+<h3>
+<a name="sauvegarder-en-png" class="anchor" href="#sauvegarder-en-png"><span class="octicon octicon-link"></span></a>Sauvegarder en PNG</h3>
+
+<p>Allez dans Fichier-&gt;Sauvegarder (PNG)
+Vous sauvegardez ainsi votre tableau en png. Contrairement au .herbinator, vous ne pouvez pas rouvrir le tableau sauvegardé en .png</p>
+
+<h3>
+<a name="r%C3%A9g%C3%A9n%C3%A9rer-le-tableau" class="anchor" href="#r%C3%A9g%C3%A9n%C3%A9rer-le-tableau"><span class="octicon octicon-link"></span></a>Régénérer le tableau</h3>
+
+<p>Allez dans Edition-&gt;Regenerer (même paramètres)</p>
+
+<p>Le programme générera un nouveau tableau en gardant les paramètres saisies initialement (taille/mot/mode).</p>
+
+<h3>
+<a name="activer-la-kinect" class="anchor" href="#activer-la-kinect"><span class="octicon octicon-link"></span></a>Activer la Kinect</h3>
+
+<p>Allez dans Edition-&gt;Activer la Kinect</p>
+
+<p>Une fenêtre se lancera, montrant "ce que voit" la Kinect. Il faudra déplacer sa main devant la Kinect afin qu'elle "capte" votre main, et que le pointeur apparaisse sur Herbinator.</p>
+
+<h3>
+<a name="quitter-le-fullscreen" class="anchor" href="#quitter-le-fullscreen"><span class="octicon octicon-link"></span></a>Quitter le fullscreen</h3>
+
+<p>Allez dans Edition-&gt;Quitter le fullscreen</p>
+
+<p>Lorsque vous êtes en mode plein écran, cette fonctionnalité vous permet de faire réapparaitre la barre de menus.</p>
+
+<h3>
+<a name="cacher-la-souris" class="anchor" href="#cacher-la-souris"><span class="octicon octicon-link"></span></a>Cacher la souris</h3>
+
+<p>Allez dans Edition-&gt;Cacher la souris</p>
+
+<p>Cela rend le pointeur de la souris invisible. Utile lorsque la Kinect est activée.</p>
         </section>
 
         <footer>
